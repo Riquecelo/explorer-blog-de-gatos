@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-1:#065E7C;
+    --bg-2:#387E96;
+    --bg-3:#F4FCFF;
+
+    --title-color:#202024;
+    --text-color-1: #121214;
+    --text-color-2: #ffffff;
+}
