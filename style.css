@@ -168,3 +168,24 @@ footer{
         padding: 0 4rem;
     }
 }
+
+header{
+    animation: fromTop 600ms 100ms backwards;
+}
+main,aside, footer {
+    animation: fromBottom 600ms 100ms backwards;
+}
+
+@keyframes fromTop{
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes fromBottom{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+}
