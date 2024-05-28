@@ -133,3 +133,38 @@ footer{
     font-size: 1.8rem;
     line-height: 160%;
 }
+
+@media(min-width:1200px){
+    .app{
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "main aside"
+        "footer footer";
+        gap: 2.5rem 2rem;
+
+    }
+    /* header,main,aside{
+        max-width: initial;
+        padding: initial;
+        margin: initial;
+    } */
+
+    header{
+        grid-area: header;
+    }
+    main{
+        grid-area: main;
+    }
+    aside{
+        grid-area: aside;
+        width: 50rem;
+    }
+    footer{
+        grid-area: footer;
+    }
+
+    main, aside{
+        padding: 0 4rem;
+    }
+}
